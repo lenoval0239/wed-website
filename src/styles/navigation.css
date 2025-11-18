@@ -1,0 +1,53 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #f6f3ea; */
+  opacity: 0.9;
+  background-color: rgb(250, 250, 250);
+}
+ul {
+  width: 25%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.4rem;
+  align-items: center;
+}
+
+.logo {
+  font-size: 2rem;
+  display: flex;
+  justify-content: left;
+  padding: 20px;
+}
+.links {
+  width: 66%;
+  display: flex;
+  justify-content: space-around;
+}
+ul li a {
+  text-decoration: none;
+  font-family: "Great Vibes", cursive;
+  font-weight: 500;
+  letter-spacing: 10px;
+  color: rgb(0, 0, 0);
+}
+ul li a:hover {
+  animation: fly 0.1s infinite; /* Add flying animation */
+  cursor: url(../images/hand.png), auto;
+}
+
+@keyframes fly {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-100px) rotate(-105deg); /* Upward motion */
+  }
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+}

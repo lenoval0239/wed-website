@@ -1,0 +1,64 @@
+import { clear } from "@testing-library/user-event/dist/clear";
+import React, { useEffect, useState, useRef } from "react";
+import centerPic from "../images/centerPic.jpg";
+import swan from "../images/swan.png";
+import video from "../images/landing-video.mp4";
+
+import "../styles/toppage.css";
+// import { CountdownTimer } from "./Timer";
+var bride = "LEILA";
+var groom = "NICHOLAS";
+
+function TopPage() {
+  const videoRef = useRef(null);
+
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.playbackRate = 0.5; // 👈 70% speed (slower)
+    }
+  }, []);
+  return (
+    <section className="landing-page">
+      <video ref={videoRef} autoPlay muted loop playsInline id="bgVideo">
+        <source src={video} type="video/mp4" />
+      </video>
+      <div className="landing-page-content">
+        <h1>
+          <span className="groom">{groom}</span>
+          <span className="bride">& {bride}</span>
+        </h1>
+        <h2>WE'RE GETTING MARRIED</h2>
+        <h4>05-23-2026</h4>
+      </div>
+    </section>
+  );
+}
+
+export function Welcome() {
+  return (
+    <section className="welcome">
+      <section className="content">
+        <h3>families & friends</h3>
+        <p>
+          We’re so grateful you’re here to celebrate this incredible chapter of
+          our lives with us. Your love, support, and presence mean the world to
+          us as we begin our journey together as husband and wife. We can’t wait
+          to share laughter, memories, and love with each and every one of you..
+        </p>
+      </section>
+      <div className="envelope">
+        <div className="left-envelope"></div>
+        <div className="right-envelope"></div>
+        {/* <div className="back-envelope"></div> */}
+        <div className="seal"></div>
+        <div className="image1"></div>
+        <div className="image2"></div>
+        <div className="image3"></div>
+      </div>
+      <img className="swan" src={swan} />
+      <img className="swan2" src={swan} />
+    </section>
+  );
+}
+
+export default TopPage;

@@ -1,0 +1,75 @@
+#registry {
+  position: relative;
+  height: 80vh;
+  align-content: center;
+  overflow: hidden;
+}
+.left-img {
+  position: absolute;
+  left: -100px;
+  top: 50%;
+  width: 35%;
+}
+.right-img1,
+.right-img2 {
+  position: absolute;
+  right: -20px;
+  top: 0;
+  width: 35%;
+  z-index: 1;
+}
+.right-img2 {
+  right: -100px;
+  top: 25px;
+  transform: rotate(-20deg);
+}
+.gift-img {
+  position: absolute;
+  left: 31%;
+  top: 25%;
+  transform: scaleY(-1) rotate(-135deg);
+  opacity: 0.2;
+}
+#registry section {
+  background-color: #f1f0eb;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  right: 50%;
+  top: 50%;
+  transform: translate(80%, -50%);
+  width: 600px;
+  height: 60vh;
+  border-radius: 15%;
+  border: 3px solid #748169;
+}
+#registry .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  height: 60%;
+}
+#registry h2 {
+  font-size: 2rem;
+}
+#registry .content h3 {
+  width: 70%;
+}
+#registry .content p {
+  width: 70%;
+}
+#registry button {
+  width: 400px;
+  height: 80px;
+  background-image: url(../images/registry-btn.png);
+  background-position: center;
+  background-size: cover;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 2rem;
+}
