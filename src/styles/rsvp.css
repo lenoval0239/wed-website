@@ -52,7 +52,7 @@
 }
 #rsvpInfo {
   height: 100vh;
-  width: 100%;
+  width: 70%;
   aspect-ratio: 16 / 9;
   display: flex;
   flex-direction: column;
@@ -62,7 +62,6 @@
   position: relative;
   border-radius: 20% 20%;
   opacity: 1;
-  /* background-color: yellow; */
 }
 #rsvpInfo h1 {
   color: #31496a;
@@ -76,6 +75,7 @@
   width: 40%;
   text-align: left;
   font-size: 1.2rem;
+  font-size: clamp(0.8rem, 2vw, 1.2rem);
 }
 #rsvpInfo p span {
   display: inline;
@@ -90,6 +90,6 @@
   height: 200px;
   font-size: 2rem;
   position: absolute;
-  right: 20%;
-  bottom: 30px;
+  right: 0%;
+  bottom: 0%;
 }

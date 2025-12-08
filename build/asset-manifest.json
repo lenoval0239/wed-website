@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/wed-website/static/css/main.44a1723b.css",
+    "main.css": "/wed-website/static/css/main.b0153308.css",
     "main.js": "/wed-website/static/js/main.d987894e.js",
     "static/js/453.c82c9996.chunk.js": "/wed-website/static/js/453.c82c9996.chunk.js",
     "static/media/landing-video.mp4": "/wed-website/static/media/landing-video.4740873ff1be1d88e16d.mp4",
@@ -22,12 +22,12 @@
     "static/media/envelope.png": "/wed-website/static/media/envelope.bfd2a49fe72e4a1eb074.png",
     "static/media/cheers.gif": "/wed-website/static/media/cheers.41639e974f571ccc9b6c.gif",
     "index.html": "/wed-website/index.html",
-    "main.44a1723b.css.map": "/wed-website/static/css/main.44a1723b.css.map",
+    "main.b0153308.css.map": "/wed-website/static/css/main.b0153308.css.map",
     "main.d987894e.js.map": "/wed-website/static/js/main.d987894e.js.map",
     "453.c82c9996.chunk.js.map": "/wed-website/static/js/453.c82c9996.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.44a1723b.css",
+    "static/css/main.b0153308.css",
     "static/js/main.d987894e.js"
   ]
 }

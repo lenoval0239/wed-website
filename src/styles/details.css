@@ -109,8 +109,8 @@
   background-image: url(../images/invitation-front.png);
   background-position: center;
   background-size: cover;
-  right: 49%;
-  bottom: 100px;
+  right: 52%;
+  bottom: 0px;
   letter-spacing: 3px;
   z-index: -3;
 }
@@ -118,8 +118,8 @@
   /* background-color: rgba(212, 218, 205, 1); */
   background-color: #f1f0eb;
   letter-spacing: 3px;
-  left: 49%;
-  bottom: 0px;
+  left: 47%;
+  bottom: -100px;
   box-shadow: 0 0 20px 5px rgba(43, 44, 43, 0.8);
   background-image: url(../images/card2.png);
   background-position: center;

@@ -111,7 +111,8 @@ span {
 }
 .swan,
 .swan2 {
-  width: 500px;
+  width: 25%;
+  max-width: 50%;
   height: fit-content;
   top: 50%;
   position: absolute;
@@ -272,6 +273,14 @@ span {
   #details {
     height: 300vh !important;
   }
+  #rsvpInfo p {
+    width: 80% !important;
+  }
+  #btnRsvp {
+    width: 150px !important;
+    height: 150px !important ;
+    font-size: 1rem !important;
+  }
 }
 @media (max-width: 1100px) {
   #mainImage {
@@ -395,7 +404,6 @@ span {
 @media (max-width: 750px) {
   #details .title {
     top: -80px !important;
-    background-color: red !important;
   }
   .cards {
     display: flex !important;
@@ -456,6 +464,7 @@ span {
     align-items: center;
   }
   #rsvpInfo {
+    width: 100% !important;
     height: 80vh !important;
     /* margin-top: -200px !important; */
   }
@@ -471,6 +480,7 @@ span {
     width: 100px !important;
     height: 100px !important ;
     font-size: 1rem !important;
+    bottom: -5% !important;
   }
 
   #registry {
