@@ -1,5 +1,5 @@
 #details {
-  height: 200vh;
+  height: 100vh;
   align-content: center;
   /* border-radius: 0% 20%; */
   position: relative;
@@ -8,11 +8,6 @@
   /* background-color: yellow; */
 }
 #details .title {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  opacity: 0.8;
 }
 #details .typing {
   color: #31496a;
@@ -46,14 +41,14 @@
   }
 }
 
-#details h3 {
+#details .title h3 {
   color: black;
-  background-color: yellow;
 }
+
 .accomodation {
   position: relative;
   width: 50%;
-  top: -20%;
+  top: 0%;
   margin: 0 auto; /* center horizontally */
   justify-items: center;
 }

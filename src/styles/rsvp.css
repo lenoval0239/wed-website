@@ -1,10 +1,10 @@
 #timer-section {
-  width: 75%;
   height: 50vh;
+  width: 50%;
+  aspect-ratio: 16 / 9;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -300px;
 }
 #mainImage {
   width: 30%;
