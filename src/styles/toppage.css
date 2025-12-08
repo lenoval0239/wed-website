@@ -388,6 +388,7 @@ span {
 @media (max-width: 750px) {
   #details .title {
     top: -80px !important;
+    background-color: yellow !important;
   }
   .cards {
     display: flex !important;
