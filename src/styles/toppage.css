@@ -20,6 +20,9 @@ body {
   overflow-x: hidden; /* hides any accidental horizontal overflow */
   width: 100%;
 }
+h1 {
+  color: #586057;
+}
 .landing-page {
   display: flex;
   height: 100vh;
@@ -27,13 +30,14 @@ body {
   justify-content: space-evenly;
   position: relative;
   overflow: hidden;
+  aspect-ratio: 16 / 9; /* stays proportional on all screens */
 }
 #bgVideo {
   min-width: 100%;
   min-height: 100%;
   object-fit: cover;
   z-index: -10;
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 h1 .groom,
@@ -73,22 +77,22 @@ span {
 /* ==================================WELCOME PAGE ====================================*/
 .welcome {
   height: 100vh;
-  display: flex;
-  justify-content: center;
   position: relative;
   width: 100%;
   aspect-ratio: 16 / 9; /* stays proportional on all screens */
-}
-.welcome .content {
-  width: 80%;
-  height: 70vh;
+  background-color: #586057;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   align-self: center;
-  position: absolute;
-  bottom: 0;
+}
+
+.welcome h1 {
+  font-size: clamp(1rem, 10vw, 10rem);
+  font-weight: 100;
+  letter-spacing: 50px;
+  color: whitesmoke;
 }
 
 .welcome h3 {

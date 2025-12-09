@@ -23,6 +23,7 @@ function App() {
       {/* <CountdownTimer /> */}
       <RSVP />
       <Registry />
+      <CountdownTimer />
     </div>
   );
 }

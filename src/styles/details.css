@@ -10,7 +10,6 @@
 #details .title {
 }
 #details .typing {
-  color: #31496a;
   font-size: clamp(1rem, 10vw, 4rem);
   justify-self: center;
   display: block;

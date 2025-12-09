@@ -41,7 +41,6 @@ function RSVPInfo() {
 export default function RSVP() {
   return (
     <div className="rsvp">
-      <CountdownTimer />
       <RSVPInfo />
     </div>
   );

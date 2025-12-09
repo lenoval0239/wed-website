@@ -2,8 +2,9 @@ import { clear } from "@testing-library/user-event/dist/clear";
 import React, { useEffect, useState, useRef } from "react";
 import centerPic from "../images/centerPic.jpg";
 import swan from "../images/swan.png";
-import video from "../images/landing-video.mp4";
-import video2 from "../images/bg-video.mp4";
+// import video from "../images/landing-video.mp4";
+// import video2 from "../images/bg-video.mp4";
+import video2 from "../images/bg-video2.mp4";
 
 import "../styles/toppage.css";
 // import { CountdownTimer } from "./Timer";
@@ -37,15 +38,15 @@ function TopPage() {
 export function Welcome() {
   return (
     <section className="welcome">
-      <section className="content">
-        <h3>families & friends</h3>
-        <p>
-          We’re so grateful you’re here to celebrate this incredible chapter of
-          our lives with us. Your love, support, and presence mean the world to
-          us as we begin our journey together as husband and wife. We can’t wait
-          to share laughter, memories, and love with each and every one of you..
-        </p>
-      </section>
+      <h1>Welcome</h1>
+      <h3>families & friends</h3>
+      <p>
+        We’re so grateful you’re here to celebrate this incredible chapter of
+        our lives with us. Your love, support, and presence mean the world to us
+        as we begin our journey together as husband and wife. We can’t wait to
+        share laughter, memories, and love with each and every one of you..
+      </p>
+
       <div className="envelope">
         <div className="left-envelope"></div>
         <div className="right-envelope"></div>

@@ -38,9 +38,9 @@ function Details() {
   return (
     <section id="details">
       <section className="title">
-        <h2 ref={ref} className={`typing ${isVisible ? "animate" : ""}`}>
+        <h1 ref={ref} className={`typing ${isVisible ? "animate" : ""}`}>
           Wedding Details
-        </h2>
+        </h1>
         <h3>Please only attend what your invitation entales</h3>
       </section>
       <section className="cards">

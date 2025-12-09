@@ -5,6 +5,7 @@
   overflow: hidden;
   width: 100%;
   aspect-ratio: 16 / 9;
+  background-color: #586057;
 }
 .left-img {
   position: absolute;

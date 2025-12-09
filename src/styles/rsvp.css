@@ -1,10 +1,11 @@
 #timer-section {
-  height: 50vh;
-  width: 50%;
+  height: 70vh;
+  width: 100%;
   aspect-ratio: 16 / 9;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 #mainImage {
   width: 30%;
@@ -64,7 +65,6 @@
   opacity: 1;
 }
 #rsvpInfo h1 {
-  color: #31496a;
   font-size: clamp(1rem, 8vw, 5.5rem);
   letter-spacing: 6rem;
   text-align: center;
