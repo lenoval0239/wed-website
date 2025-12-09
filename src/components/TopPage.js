@@ -3,6 +3,7 @@ import React, { useEffect, useState, useRef } from "react";
 import centerPic from "../images/centerPic.jpg";
 import swan from "../images/swan.png";
 import video from "../images/landing-video.mp4";
+import video2 from "../images/bg-video.mp4";
 
 import "../styles/toppage.css";
 // import { CountdownTimer } from "./Timer";
@@ -20,14 +21,13 @@ function TopPage() {
   return (
     <section className="landing-page">
       <video ref={videoRef} autoPlay muted loop playsInline id="bgVideo">
-        <source src={video} type="video/mp4" />
+        <source src={video2} type="video/mp4" />
       </video>
       <div className="landing-page-content">
         <h1>
           <span className="groom">{groom}</span>
           <span className="bride">& {bride}</span>
         </h1>
-        <h2>WE'RE GETTING MARRIED</h2>
         <h4>05-23-2026</h4>
       </div>
     </section>

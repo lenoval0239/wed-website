@@ -16,7 +16,7 @@ import Registry from "./components/Registry";
 function App() {
   return (
     <div className="App">
-      <Navigation />
+      {/* <Navigation /> */}
       <TopPage />
       <Welcome />
       <Details />
