@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/wed-website/static/css/main.e09e9902.css",
-    "main.js": "/wed-website/static/js/main.13ffccb9.js",
+    "main.css": "/wed-website/static/css/main.ecda7e60.css",
+    "main.js": "/wed-website/static/js/main.097ca76b.js",
     "static/js/453.c82c9996.chunk.js": "/wed-website/static/js/453.c82c9996.chunk.js",
-    "static/media/bg-video.mp4": "/wed-website/static/media/bg-video.6a9c5e012522200b5276.mp4",
-    "static/media/landing-video.mp4": "/wed-website/static/media/landing-video.4740873ff1be1d88e16d.mp4",
     "static/media/image2.jpg": "/wed-website/static/media/image2.c33851041b722d182d94.jpg",
     "static/media/image3.jpg": "/wed-website/static/media/image3.b66939f97c2e4d37a7d0.jpg",
+    "static/media/bg-video2.mp4": "/wed-website/static/media/bg-video2.ac5ccae7977806f69bd8.mp4",
     "static/media/image1.jpg": "/wed-website/static/media/image1.4645834e84f4e27d5213.jpg",
     "static/media/invitation-front.png": "/wed-website/static/media/invitation-front.1ef9c9768fca0902f018.png",
     "static/media/card2.png": "/wed-website/static/media/card2.f21162451bb0a6952911.png",
@@ -16,19 +15,19 @@
     "static/media/seal.png": "/wed-website/static/media/seal.5247c4174aed0ce7b14b.png",
     "static/media/swan.png": "/wed-website/static/media/swan.8c726d18776f2585b564.png",
     "static/media/border.png": "/wed-website/static/media/border.21b200c1ed0fca254c76.png",
-    "static/media/mapbg.png": "/wed-website/static/media/mapbg.9e67f77c88bf63d4e69c.png",
+    "static/media/mapbg.png": "/wed-website/static/media/mapbg.790bc54910ecf0dfe0b5.png",
     "static/media/registry-leftimg.png": "/wed-website/static/media/registry-leftimg.55904355f540faceaec0.png",
     "static/media/registry-gift.png": "/wed-website/static/media/registry-gift.110d63fa854c124fa8ad.png",
     "static/media/registry-rightimg.png": "/wed-website/static/media/registry-rightimg.4ceb216bc10138eae433.png",
     "static/media/envelope.png": "/wed-website/static/media/envelope.bfd2a49fe72e4a1eb074.png",
     "static/media/cheers.gif": "/wed-website/static/media/cheers.41639e974f571ccc9b6c.gif",
     "index.html": "/wed-website/index.html",
-    "main.e09e9902.css.map": "/wed-website/static/css/main.e09e9902.css.map",
-    "main.13ffccb9.js.map": "/wed-website/static/js/main.13ffccb9.js.map",
+    "main.ecda7e60.css.map": "/wed-website/static/css/main.ecda7e60.css.map",
+    "main.097ca76b.js.map": "/wed-website/static/js/main.097ca76b.js.map",
     "453.c82c9996.chunk.js.map": "/wed-website/static/js/453.c82c9996.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e09e9902.css",
-    "static/js/main.13ffccb9.js"
+    "static/css/main.ecda7e60.css",
+    "static/js/main.097ca76b.js"
   ]
 }

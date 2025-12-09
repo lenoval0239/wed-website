@@ -1,7 +1,6 @@
 #details {
-  height: 100vh;
+  height: 125vh;
   align-content: center;
-  /* border-radius: 0% 20%; */
   position: relative;
   width: 100%;
   aspect-ratio: 16 / 9; /* stays proportional on all screens */

@@ -5,6 +5,7 @@ import "./styles/rsvp.css";
 import "./styles/details.css";
 import "./styles/navigation.css";
 import "./styles/registry.css";
+import "./styles/media.css";
 
 import TopPage, { Welcome } from "./components/TopPage";
 import RSVP from "./components/RSVP";
