@@ -80,12 +80,16 @@ span {
   position: relative;
   width: 100%;
   aspect-ratio: 16 / 9; /* stays proportional on all screens */
-  background-color: #586057;
+  /* background-color: #586057; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   align-self: center;
+  background-image: url(../images/bg-welcome.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .welcome h1 {
@@ -111,7 +115,7 @@ span {
 .swan2 {
   width: 25%;
   max-width: 25%;
-  height: fit-content;
+  height: auto;
   top: 50%;
   position: absolute;
   opacity: 0.2;
