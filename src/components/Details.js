@@ -59,15 +59,15 @@ function Details() {
           </div>
           <section className="hotel-info">
             <section>
-              <h4>Address</h4>
+              <h4>ADDRESS</h4>
               <p>201 SK-21, Maple Creek, SK S0N 1N0</p>
             </section>
             <section>
-              <h4>Phone</h4>
+              <h4>PHONE</h4>
               <p>(306) 662-5100</p>
             </section>
             <section>
-              <h4>Website</h4>
+              <h4>WEBSITE</h4>
               <p>reservations@cobblecreeklodge.com</p>
             </section>
             <section>

@@ -87,13 +87,14 @@
 }
 
 .hotel-info h4 {
-  font-size: clamp(2rem, 1vw, 5rem);
-  font-family: "Alex Brush", cursive;
+  font-size: clamp(1rem, 1vw, 5rem);
+  font-weight: 100;
   margin: 0;
   text-align: left;
 }
 .hotel-info p {
   text-align: left;
+  font-size: clamp(1rem, 1vw, 1rem);
 }
 
 .cards {
