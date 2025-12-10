@@ -51,18 +51,22 @@
 }
 .accomodation h1 {
   font-family: "Alex Brush", cursive;
-  font-size: clamp(1rem, 5vw, 5rem);
+  font-size: clamp(1rem, 8vw, 5rem);
   font-weight: 100;
   letter-spacing: 10px;
 }
 .accomodation .hotel-info-wrapper {
   display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
   align-items: center;
-  justify-content: center;
   position: relative;
   width: 100%;
 }
-
+.hotel-name-wrapper {
+  display: flex;
+  align-items: center;
+}
 .hotel-name {
   color: rgb(131, 122, 122);
   transform: rotate(-90deg);
@@ -71,10 +75,6 @@
   font-size: clamp(1rem, 7vw, 2rem);
   white-space: nowrap; /*makes it so it wont break to the next line for us for phone view purpose*/
   margin: 0;
-  position: absolute;
-  left: 0; /* sticks to left edge */
-  top: 50%; /* vertically center */
-  transform: translateY(-50%) rotate(-90deg); /* vertically center after rotation */
 }
 .hotel-info {
   display: flex;
@@ -83,6 +83,7 @@
   align-items: flex-start;
   gap: 30px;
   margin: 0;
+  flex: 1;
 }
 
 .hotel-info h4 {

@@ -134,6 +134,22 @@
   #details .title {
     top: -80px !important;
   }
+  .accomodation .hotel-info-wrapper {
+    flex-direction: column; /* stack vertically */
+    align-items: center;
+    gap: 10px;
+  }
+
+  .hotel-name {
+    transform: rotate(0deg); /* horizontal on mobile */
+    font-size: clamp(1rem, 8vw, 5rem); /* adjust size */
+    white-space: normal; /* allow wrapping if needed */
+  }
+
+  .hotel-info {
+    align-items: flex-start; /* center info under name */
+    gap: 15px;
+  }
   .cards {
     display: flex !important;
     flex-direction: column !important;
