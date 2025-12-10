@@ -47,15 +47,6 @@ export function Welcome() {
         share laughter, memories, and love with each and every one of you..
       </p>
 
-      <div className="envelope">
-        <div className="left-envelope"></div>
-        <div className="right-envelope"></div>
-        {/* <div className="back-envelope"></div> */}
-        <div className="seal"></div>
-        <div className="image1"></div>
-        <div className="image2"></div>
-        <div className="image3"></div>
-      </div>
       <img className="swan" src={swan} />
       <img className="swan2" src={swan} />
     </section>
