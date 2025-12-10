@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wed-website/static/css/main.c0146c3a.css",
-    "main.js": "/wed-website/static/js/main.1ecd4adb.js",
+    "main.css": "/wed-website/static/css/main.ade0df23.css",
+    "main.js": "/wed-website/static/js/main.52874d32.js",
     "static/js/453.c82c9996.chunk.js": "/wed-website/static/js/453.c82c9996.chunk.js",
     "static/media/bg-video2.mp4": "/wed-website/static/media/bg-video2.ac5ccae7977806f69bd8.mp4",
     "static/media/invitation-front.png": "/wed-website/static/media/invitation-front.1ef9c9768fca0902f018.png",
@@ -16,13 +16,14 @@
     "static/media/registry-gift.png": "/wed-website/static/media/registry-gift.110d63fa854c124fa8ad.png",
     "static/media/registry-rightimg.png": "/wed-website/static/media/registry-rightimg.4ceb216bc10138eae433.png",
     "static/media/cheers.gif": "/wed-website/static/media/cheers.41639e974f571ccc9b6c.gif",
+    "static/media/bg-rsvp.png": "/wed-website/static/media/bg-rsvp.9ad3670fd6c3857fc165.png",
     "index.html": "/wed-website/index.html",
-    "main.c0146c3a.css.map": "/wed-website/static/css/main.c0146c3a.css.map",
-    "main.1ecd4adb.js.map": "/wed-website/static/js/main.1ecd4adb.js.map",
+    "main.ade0df23.css.map": "/wed-website/static/css/main.ade0df23.css.map",
+    "main.52874d32.js.map": "/wed-website/static/js/main.52874d32.js.map",
     "453.c82c9996.chunk.js.map": "/wed-website/static/js/453.c82c9996.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0146c3a.css",
-    "static/js/main.1ecd4adb.js"
+    "static/css/main.ade0df23.css",
+    "static/js/main.52874d32.js"
   ]
 }
