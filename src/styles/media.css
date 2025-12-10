@@ -1,4 +1,9 @@
 /* MEDIA======================================================================================= */
+@media (min-width: 1100px) {
+  .accomodation {
+    width: 30%;
+  }
+}
 @media (max-width: 1600px) {
   #details {
     height: max-content !important;

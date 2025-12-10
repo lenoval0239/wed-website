@@ -51,7 +51,7 @@
 }
 .accomodation h1 {
   font-family: "Alex Brush", cursive;
-  font-size: clamp(1rem, 2vw, 5rem);
+  font-size: clamp(1rem, 5vw, 5rem);
   font-weight: 100;
   letter-spacing: 10px;
 }

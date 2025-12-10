@@ -41,13 +41,14 @@ function Details() {
         <h1 ref={ref} className={`typing ${isVisible ? "animate" : ""}`}>
           Wedding Details
         </h1>
-        <h3>Please only attend what your invitation entales</h3>
+        {/* <h3>Please only attend what your invitation entales</h3> */}
       </section>
       <section className="accomodation">
         <h1>Accomodation</h1>
         <p>
-          We've reserved a block of rooms at The Cobble Creek Lodge in Maple
-          Creek. Just mention the Noval–Scott wedding when you reserve.
+          Thank you for making the journey to join us on our special day! We’ve
+          arranged a block of rooms at The Cobble Creek Lodge in Maple Creek. Be
+          sure to mention the Noval–Scott wedding when making your reservation.
         </p>
         <h5>
           Please book your rooms by<span>March 30, 2026</span>
