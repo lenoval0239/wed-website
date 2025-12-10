@@ -1,0 +1,43 @@
+.accomodation {
+  position: relative;
+  width: 50%;
+  top: 0%;
+  margin: 0 auto; /* center horizontally */
+  justify-items: center;
+}
+
+.accomodation::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 450px;
+  background-image: url(../images/border.png);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 20px 5px rgba(43, 44, 43, 0.8);
+  z-index: -4; /* behind the content */
+  border-radius: 10px; /* optional rounded corners */
+}
+
+.accomodation h5,
+.accomodation p {
+  width: 50%;
+  font-size: clamp(0.5rem, 3vw, 1rem);
+}
+.accomodation p {
+  background-color: whitesmoke;
+  box-shadow: 0 0 20px 5px rgba(199, 201, 199, 0.8);
+  border-radius: 10px;
+}
+.accomodation .bookOnline {
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 1px solid rgb(134, 124, 124);
+}
+.accomodation h5 span {
+  color: red;
+  font-size: 1.2rem;
+}

@@ -43,8 +43,46 @@ function Details() {
         </h1>
         <h3>Please only attend what your invitation entales</h3>
       </section>
+      <section className="accomodation">
+        <h1>Accomodation</h1>
+        <p>
+          We've reserved a block of rooms at The Cobble Creek Lodge in Maple
+          Creek. Just mention the Noval–Scott wedding when you reserve.
+        </p>
+        <h5>
+          Please book your rooms by<span>March 30, 2026</span>
+        </h5>
+        <div className="hotel-info-wrapper">
+          <div className="hotel-name-wrapper">
+            <h3 className="hotel-name">The Cobble Creek Lodge</h3>
+          </div>
+          <section className="hotel-info">
+            <section>
+              <h4>Address</h4>
+              <p>201 SK-21, Maple Creek, SK S0N 1N0</p>
+            </section>
+            <section>
+              <h4>Phone</h4>
+              <p>(306) 662-5100</p>
+            </section>
+            <section>
+              <h4>Website</h4>
+              <p>reservations@cobblecreeklodge.com</p>
+            </section>
+            <section>
+              <a
+                href="https://cobblecreeklodge.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="bookOnline">Book Online</button>
+              </a>
+            </section>
+          </section>
+        </div>
+      </section>
       <section className="cards">
-        <div className="accomodation">
+        {/* <div className="accomodation">
           <h1>Accomodation</h1>
           <h3>The Cobble Creek Lodge</h3>
           <h5>
@@ -66,7 +104,7 @@ function Details() {
           >
             <button className="bookOnline">Book Online</button>
           </a>
-        </div>
+        </div> */}
         <div className="card1"></div>
         <div className="card2">
           <h2>Schedule</h2>

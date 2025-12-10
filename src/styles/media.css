@@ -1,7 +1,7 @@
 /* MEDIA======================================================================================= */
 @media (max-width: 1600px) {
   #details {
-    height: 300vh !important;
+    height: max-content !important;
   }
   #rsvpInfo p {
     width: 80% !important;
@@ -67,16 +67,7 @@
   }
 
   /* DETAILS */
-  .accomodation {
-    min-width: 80%;
-    margin: 0 auto;
-    justify-items: center;
-  }
 
-  .accomodation h5,
-  .accomodation p {
-    min-width: 80%;
-  }
   .card1,
   .card2 {
     position: absolute;
@@ -146,8 +137,7 @@
     height: auto !important;
   }
   .card1,
-  .card2,
-  .accomodation {
+  .card2 {
     position: static !important;
     margin: 20px 0; /* spacing between cards */
     left: auto !important;

@@ -20,9 +20,11 @@ body {
   overflow-x: hidden; /* hides any accidental horizontal overflow */
   width: 100%;
 }
-h1 {
+h1,
+h4 {
   color: #586057;
 }
+
 .landing-page {
   display: flex;
   height: 100vh;
