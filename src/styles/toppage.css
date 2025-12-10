@@ -46,7 +46,7 @@ h1 .groom,
 h1 .bride {
   position: absolute;
   top: 100px;
-  font-size: clamp(2rem, 12vw, 10rem);
+  font-size: clamp(2rem, 10vw, 10rem);
   letter-spacing: 0.4em;
   font-weight: 100;
   opacity: 1;

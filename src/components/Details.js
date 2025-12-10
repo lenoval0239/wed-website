@@ -50,9 +50,7 @@ function Details() {
           arranged a block of rooms at The Cobble Creek Lodge in Maple Creek. Be
           sure to mention the Noval–Scott wedding when making your reservation.
         </p>
-        <h5>
-          Please book your rooms by<span>March 30, 2026</span>
-        </h5>
+        <h5>Please book your rooms by March 30, 2026</h5>
         <div className="hotel-info-wrapper">
           <div className="hotel-name-wrapper">
             <h3 className="hotel-name">The Cobble Creek Lodge</h3>
@@ -83,29 +81,6 @@ function Details() {
         </div>
       </section>
       <section className="cards">
-        {/* <div className="accomodation">
-          <h1>Accomodation</h1>
-          <h3>The Cobble Creek Lodge</h3>
-          <h5>
-            We've reserved a block of rooms at The Cobble Creek Lodge in Maple
-            Creek. Just mention the Noval–Scott wedding when you reserve.
-          </h5>
-          <h5>
-            Please book your rooms by<span>March 30, 2026</span>
-          </h5>
-          <p>
-            201 SK-21, Maple Creek, SK S0N 1N0 (306) 662-5100
-            reservations@cobblecreeklodge.com
-          </p>
-
-          <a
-            href="https://cobblecreeklodge.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <button className="bookOnline">Book Online</button>
-          </a>
-        </div> */}
         <div className="card1"></div>
         <div className="card2">
           <h2>Schedule</h2>
@@ -122,7 +97,7 @@ function Details() {
           </p>
         </div>
 
-        <div className="images">
+        {/* <div className="images">
           <img
             ref={ref}
             className={`flower ${isVisible ? "animate" : ""}`}
@@ -133,7 +108,7 @@ function Details() {
             className={`flower2 ${isVisible ? "animate" : ""}`}
             src={flower2}
           />
-        </div>
+        </div> */}
       </section>
     </section>
   );

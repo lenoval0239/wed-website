@@ -3,12 +3,18 @@
   width: 100%;
   aspect-ratio: 16 / 9;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  background-image: url(../images/bg-rsvp.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-color: #586057;
 }
 #mainImage {
-  width: 30%;
+  width: 15%;
   background-image: url(../images/centerPic.jpg);
   background-size: 300%;
   background-position: center;
@@ -22,10 +28,10 @@
 .countdown {
   /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
   font-size: clamp(1rem, 2vw, 1.5rem);
-  color: #31496a;
   letter-spacing: 1px;
   align-content: center;
   width: 50%;
+  color: whitesmoke;
 }
 
 .timers {
