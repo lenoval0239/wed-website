@@ -135,13 +135,17 @@
 }
 .rsvp-content {
   width: 80%;
-  margin-top: -250px;
+  position: absolute;
+  top: 0;
 }
 .rsvp-content h1 {
   font-family: "Alex Brush", cursive;
-  font-size: clamp(1rem, 10vw, 5rem);
+  font-size: clamp(1rem, 8vw, 5rem);
   font-weight: 100;
   letter-spacing: 10px;
+}
+.rsvp-content p {
+  font-size: clamp(0.9rem, 1vw, 0.9rem);
 }
 /* .rsvp {
   background-image: url(../images/mapbg.png);

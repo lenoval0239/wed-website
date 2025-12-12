@@ -53,11 +53,6 @@
     top: 60%;
   }
   /* ENVELOPE */
-  .envelope {
-    left: 50%;
-    top: 30%;
-    transform: translate(-50%, -30%);
-  }
 
   /* WEDDING DETAILS */
   #details .typing {
@@ -165,17 +160,40 @@
     right: auto !important;
     bottom: auto !important;
   }
-
-  .flower {
-    bottom: 30% !important;
-    left: 15% !important;
-    width: 150px !important;
+  .rsvp {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #586057;
+    align-content: center; /*vertical*/
+    aspect-ratio: 16 / 9; /* stays proportional on all screens */
   }
-
-  .flower2 {
-    z-index: -4 !important;
+  /* ===================================RSVP============================================== */
+  .envelope {
+    position: absolute;
+    --envelope-size-width: 250px;
+    --envelope-size-height: 250px;
+    --envelope-size-hyp: 354px;
+    /* width: var(--envelope-size-width) + var(--envelope-size-width / 2); */
+    width: var(--envelope-size-width);
+    height: var(--envelope-size-height);
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
   }
-
+  .rsvp-content h1 {
+    font-size: 1.2rem;
+  }
+  .rsvp-content p {
+    font-size: 0.6rem;
+  }
+  #btnRsvp {
+    width: 50px !important;
+    height: 50px !important;
+    font-size: 10px !important;
+    border-radius: 50%;
+    background-color: #586057;
+  }
   #timer-section {
     width: 100% !important;
     height: 100vh !important;
@@ -196,35 +214,6 @@
 
   .timers {
     width: 100% !important;
-  }
-
-  .rsvp {
-    background-image: url(../images/mapbg.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: bottom;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  #rsvpInfo {
-    width: 100% !important;
-    height: 80vh !important;
-    /* margin-top: -200px !important; */
-  }
-  #rsvpInfo h1 {
-    letter-spacing: 2rem !important;
-    transform: translateX(0.5rem) !important;
-  }
-  #rsvpInfo p {
-    width: 80% !important;
-  }
-
-  #btnRsvp {
-    width: 100px !important;
-    height: 100px !important ;
-    font-size: 1rem !important;
-    bottom: -5% !important;
   }
 
   #registry {
