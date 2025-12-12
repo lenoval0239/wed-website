@@ -40,12 +40,12 @@ function RSVPInfo() {
 
 export default function RSVP() {
   return (
-    <div className="rsvp-bg">
-      <div className="rsvp">
-        <div className="envelope">
-          <div className="top-container">
-            <div className="top-envelope"></div>
-            <div className="rsvp-info">
+    <div className="rsvp">
+      <div className="envelope">
+        <div className="top-container">
+          <div className="top-envelope"></div>
+          <div className="rsvp-info">
+            <div className="rsvp-content">
               <h1>RSVP</h1>
               <p>
                 We're beyond excited to celebrate this special day with the
@@ -69,13 +69,13 @@ export default function RSVP() {
               </a>
             </div>
           </div>
-          <div className="mid-container">
-            <div className="right-envelope"></div>
-            <div className="left-envelope"></div>
-            <div className="bottom-envelope"></div>
-          </div>
-          <div className="bottom-container"></div>
         </div>
+        <div className="mid-container">
+          <div className="right-envelope"></div>
+          <div className="left-envelope"></div>
+          <div className="bottom-envelope"></div>
+        </div>
+        <div className="bottom-container"></div>
       </div>
     </div>
   );

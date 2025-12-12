@@ -41,3 +41,80 @@
   color: red;
   font-size: 1.2rem;
 }
+
+========================================== .rsvp {
+  background-color: #586057;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  margin-top: 2%;
+  --envelope-size-width: 500px;
+  --envelope-size-height: 500px;
+  --envelope-size-hyp: 707px;
+  width: var(--envelope-size-width) + var(--envelope-size-width / 2);
+  /* justify-self: center;
+  align-content: flex-end; */
+}
+.envelope {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: yellow;
+}
+
+.top-envelope {
+  position: absolute;
+  background-color: rgb(250, 243, 243);
+  box-shadow: 10px 0 50px 20px rgba(43, 44, 43, 0.8);
+
+  width: var(--envelope-size-width);
+  height: var(--envelope-size-height);
+  top: -50%;
+  left: 50%;
+  transform: translate(-50%) rotate(-45deg);
+  z-index: 1;
+}
+.rsvp-info {
+  background-color: tan;
+  position: absolute;
+  width: calc(var(--envelope-size-hyp) - 50px);
+  height: calc(var(--envelope-size-height) * 0.9);
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 2;
+  top: -200px;
+}
+.mid-container {
+  display: flex;
+  box-shadow: 10px 0 50px 20px rgba(43, 44, 43, 0.8);
+}
+.left-envelope,
+.right-envelope {
+  background-color: rgb(250, 243, 243);
+  width: calc(var(--envelope-size-hyp) / 2);
+  height: var(--envelope-size-height);
+  clip-path: polygon(
+    0 0,
+    100% 50%,
+    100% 100%,
+    0% 100%
+  ); /*this is to make the box have different length on one side*/
+  z-index: 3;
+}
+.left-envelope {
+  transform: scaleX(-1);
+}
+.bottom-envelope {
+  position: absolute;
+  background-color: rgb(194, 192, 192);
+  width: var(--envelope-size-hyp);
+  height: var(--envelope-size-height);
+  clip-path: polygon(
+    0% 100%,
+    /* bottom-left */ 50% 55%,
+    /* single mountain peak */ 100% 100% /* bottom-right */
+  );
+  z-index: 5;
+}
