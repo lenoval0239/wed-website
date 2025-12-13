@@ -116,7 +116,7 @@
   justify-content: space-around;
 }
 .schedule-info {
-  width: 70%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -126,16 +126,17 @@
 .schedule-content h2 {
   color: #586057;
   font-family: "Alex Brush", cursive;
-  font-size: clamp(1rem, 8vw, 5rem);
+  font-size: clamp(0.5rem, 5vw, 5rem);
   font-weight: 100;
   letter-spacing: 10px;
 }
 .schedule-content h3 {
-  font-size: clamp(1rem, 1vw, 5rem);
+  font-size: clamp(0.6rem, 2vw, 2rem);
   font-weight: 100;
+  font-family: "Alex Brush", cursive;
   color: #586057;
 }
 .schedule-content p {
-  font-size: clamp(0.9rem, 1vw, 0.9rem);
+  font-size: clamp(0.5rem, 1vw, 0.7rem);
   text-align: center;
 }
