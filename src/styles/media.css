@@ -68,12 +68,6 @@
 
   /* DETAILS */
 
-  .card1,
-  .card2 {
-    position: absolute;
-    border-radius: 10px;
-    box-shadow: 10px 0 20px 5px rgba(43, 44, 43, 0.8);
-  }
   #registry section {
     position: static !important;
     left: auto !important;
@@ -145,21 +139,8 @@
     align-items: flex-start; /* center info under name */
     gap: 15px;
   }
-  .cards {
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: center;
-    align-items: center;
-    height: auto !important;
-  }
-  .card1,
-  .card2 {
-    position: static !important;
-    margin: 20px 0; /* spacing between cards */
-    left: auto !important;
-    right: auto !important;
-    bottom: auto !important;
-  }
+
+  /* ===================================RSVP============================================== */
   .rsvp {
     position: relative;
     width: 100%;
@@ -168,7 +149,6 @@
     align-content: center; /*vertical*/
     aspect-ratio: 16 / 9; /* stays proportional on all screens */
   }
-  /* ===================================RSVP============================================== */
   .envelope {
     position: absolute;
     --envelope-size-width: 250px;

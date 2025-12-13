@@ -89,15 +89,26 @@ function Details() {
           <div className="schedule-info">
             <section className="ceremony">
               <h3>The Ceremony</h3>
-              <p>Info here</p>
+              <p>
+                The ceremony will begin at 2:00 PM. Please join us as we
+                exchange our vows and say our “I dos.”
+              </p>
             </section>
             <section className="supper">
               <h3>The Supper</h3>
-              <p>Info here</p>
+              <p>
+                Supper will begin at 6:00 PM and will be a family-only
+                gathering. We’re so sorry we couldn’t invite everyone, and we
+                truly appreciate your understanding and love.
+              </p>
             </section>
             <section className="dance">
               <h3>The Dance</h3>
-              <p>Info here</p>
+              <p>
+                The dance will begin at 8:00 PM with a cash bar available. Join
+                us later in the evening for midnight snacks to keep the
+                celebration going.
+              </p>
             </section>
           </div>
         </div>
