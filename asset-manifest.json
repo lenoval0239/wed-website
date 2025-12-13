@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/wed-website/static/css/main.ac627213.css",
-    "main.js": "/wed-website/static/js/main.83b1bb5f.js",
+    "main.css": "/wed-website/static/css/main.2c0c11fa.css",
+    "main.js": "/wed-website/static/js/main.c5999f8d.js",
     "static/js/453.c82c9996.chunk.js": "/wed-website/static/js/453.c82c9996.chunk.js",
     "static/media/bg-video2.mp4": "/wed-website/static/media/bg-video2.ac5ccae7977806f69bd8.mp4",
+    "static/media/bg-schedule.png": "/wed-website/static/media/bg-schedule.126d2e182fa2a9324529.png",
     "static/media/bg-rsvp-info.png": "/wed-website/static/media/bg-rsvp-info.8aa0afff00ae8ac7054c.png",
-    "static/media/invitation-front.png": "/wed-website/static/media/invitation-front.1ef9c9768fca0902f018.png",
-    "static/media/card2.png": "/wed-website/static/media/card2.f21162451bb0a6952911.png",
     "static/media/centerPic.jpg": "/wed-website/static/media/centerPic.8e1f4e3402407ecf9505.jpg",
     "static/media/flower1.png": "/wed-website/static/media/flower1.3c86fdd5220c6baa4b8d.png",
     "static/media/flower2.png": "/wed-website/static/media/flower2.94708669df1727faf891.png",
@@ -18,12 +17,12 @@
     "static/media/cheers.gif": "/wed-website/static/media/cheers.41639e974f571ccc9b6c.gif",
     "static/media/bg-rsvp.png": "/wed-website/static/media/bg-rsvp.9ad3670fd6c3857fc165.png",
     "index.html": "/wed-website/index.html",
-    "main.ac627213.css.map": "/wed-website/static/css/main.ac627213.css.map",
-    "main.83b1bb5f.js.map": "/wed-website/static/js/main.83b1bb5f.js.map",
+    "main.2c0c11fa.css.map": "/wed-website/static/css/main.2c0c11fa.css.map",
+    "main.c5999f8d.js.map": "/wed-website/static/js/main.c5999f8d.js.map",
     "453.c82c9996.chunk.js.map": "/wed-website/static/js/453.c82c9996.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac627213.css",
-    "static/js/main.83b1bb5f.js"
+    "static/css/main.2c0c11fa.css",
+    "static/js/main.c5999f8d.js"
   ]
 }
