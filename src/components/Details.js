@@ -33,8 +33,6 @@ function Details() {
     };
   }, []); //The empty array means this effect runs only once (when the component loads).
 
-  // ref={ref}
-  // className={`fade-in-section ${isVisible ? "is-visible" : ""}`}
   return (
     <section id="details">
       <section className="title">
@@ -80,35 +78,29 @@ function Details() {
           </section>
         </div>
       </section>
-      <section className="cards">
-        <div className="card1"></div>
-        <div className="card2">
-          <h2>Schedule</h2>
-          <h4>We do</h4>
-          <p>2:00pm</p>
-          <h4>We Dine</h4>
-          <p>5:30pm</p>
-          <h4>We Dance</h4>
-          <p>8:00pm</p>
-
-          <p className="address">
-            Everything will be held at the Maple Creek Armories, 502 Marsh St,
-            Maple Creek
-          </p>
+      <section className="schedule-container">
+        <div className="schedule-content">
+          <div className="schedule-heading">
+            <h2>The Schedule</h2>
+            <p>Please come to what the invitation entales</p>
+            <p>Everything will be held at the armouries</p>
+            <p> Maple Creek Armories, 502 Marsh St, Maple Creek</p>
+          </div>
+          <div className="schedule-info">
+            <section className="ceremony">
+              <h3>The Ceremony</h3>
+              <p>Info here</p>
+            </section>
+            <section className="supper">
+              <h3>The Supper</h3>
+              <p>Info here</p>
+            </section>
+            <section className="dance">
+              <h3>The Dance</h3>
+              <p>Info here</p>
+            </section>
+          </div>
         </div>
-
-        {/* <div className="images">
-          <img
-            ref={ref}
-            className={`flower ${isVisible ? "animate" : ""}`}
-            src={floral}
-          />
-          <img
-            ref={ref}
-            className={`flower2 ${isVisible ? "animate" : ""}`}
-            src={flower2}
-          />
-        </div> */}
       </section>
     </section>
   );
