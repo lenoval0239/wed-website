@@ -16,6 +16,9 @@
     height: 150px !important ;
     font-size: 1rem !important;
   }
+  .schedule-container {
+    width: 60vw;
+  }
 }
 @media (max-width: 1100px) {
   #mainImage {
@@ -64,6 +67,9 @@
     width: auto !important; /* show full text */
     overflow: visible !important; /* no clipping */
     border-right: none !important; /* hide cursor */
+  }
+  .schedule-container {
+    width: 80vw;
   }
 
   /* DETAILS */
@@ -114,6 +120,9 @@
 @media (max-width: 500px) {
   .landing-page {
     height: 70vh;
+  }
+  .schedule-container {
+    width: 100vw;
   }
 }
 @media (max-width: 750px) {
