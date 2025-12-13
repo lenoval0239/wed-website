@@ -80,7 +80,7 @@ function Details() {
       </section>
       <section className="schedule-container">
         <div className="schedule-content">
-          <div className="schedule-heading">
+          <div className="schedule-header">
             <h2>The Schedule</h2>
             <p>Please come to what the invitation entales</p>
             <p>Everything will be held at the armouries</p>
