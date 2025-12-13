@@ -107,7 +107,7 @@
 .bottom-envelope {
   position: absolute;
   background-color: rgb(248, 248, 245);
-  outline-offset: 100px solid black;
+
   width: var(--envelope-size-hyp);
   height: var(--envelope-size-height);
   clip-path: polygon(
@@ -132,6 +132,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  box-shadow: 0px 10px 900px 200px rgba(44, 51, 44, 0.8);
 }
 .rsvp-content {
   width: 80%;

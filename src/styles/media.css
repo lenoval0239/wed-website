@@ -121,9 +121,6 @@
   .landing-page {
     height: 70vh;
   }
-  .schedule-container {
-    width: 100vw;
-  }
 }
 @media (max-width: 750px) {
   .welcome h1 {
@@ -147,6 +144,12 @@
   .hotel-info {
     align-items: flex-start; /* center info under name */
     gap: 15px;
+  }
+  .schedule-container {
+    width: 100vw;
+  }
+  .schedule-info {
+    width: 90%;
   }
 
   /* ===================================RSVP============================================== */
