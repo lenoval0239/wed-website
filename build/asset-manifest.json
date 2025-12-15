@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.749d8101.css",
-    "main.js": "/static/js/main.7020bbdd.js",
-    "static/js/453.c82c9996.chunk.js": "/static/js/453.c82c9996.chunk.js",
-    "static/media/bg-schedule.png": "/static/media/bg-schedule.f62970ffde14493b35be.png",
-    "static/media/bg-video2.mp4": "/static/media/bg-video2.ac5ccae7977806f69bd8.mp4",
-    "static/media/bg-rsvp-info.png": "/static/media/bg-rsvp-info.8aa0afff00ae8ac7054c.png",
-    "static/media/centerPic.jpg": "/static/media/centerPic.8e1f4e3402407ecf9505.jpg",
-    "static/media/flower1.png": "/static/media/flower1.3c86fdd5220c6baa4b8d.png",
-    "static/media/flower2.png": "/static/media/flower2.94708669df1727faf891.png",
-    "static/media/swan.png": "/static/media/swan.8c726d18776f2585b564.png",
-    "static/media/bg-welcome.png": "/static/media/bg-welcome.f584b85fd63757607421.png",
-    "static/media/registry-leftimg.png": "/static/media/registry-leftimg.55904355f540faceaec0.png",
-    "static/media/registry-gift.png": "/static/media/registry-gift.110d63fa854c124fa8ad.png",
-    "static/media/registry-rightimg.png": "/static/media/registry-rightimg.4ceb216bc10138eae433.png",
-    "static/media/cheers.gif": "/static/media/cheers.41639e974f571ccc9b6c.gif",
-    "static/media/bg-rsvp.png": "/static/media/bg-rsvp.9ad3670fd6c3857fc165.png",
-    "index.html": "/index.html",
-    "main.749d8101.css.map": "/static/css/main.749d8101.css.map",
-    "main.7020bbdd.js.map": "/static/js/main.7020bbdd.js.map",
-    "453.c82c9996.chunk.js.map": "/static/js/453.c82c9996.chunk.js.map"
+    "main.css": "/wed-website/static/css/main.4dc8eab4.css",
+    "main.js": "/wed-website/static/js/main.02bd2a96.js",
+    "static/js/453.cd7a6fde.chunk.js": "/wed-website/static/js/453.cd7a6fde.chunk.js",
+    "static/media/bg-schedule.png": "/wed-website/static/media/bg-schedule.f62970ffde14493b35be.png",
+    "static/media/bg-video2.mp4": "/wed-website/static/media/bg-video2.ac5ccae7977806f69bd8.mp4",
+    "static/media/bg-rsvp-info.png": "/wed-website/static/media/bg-rsvp-info.8aa0afff00ae8ac7054c.png",
+    "static/media/centerPic.jpg": "/wed-website/static/media/centerPic.8e1f4e3402407ecf9505.jpg",
+    "static/media/flower1.png": "/wed-website/static/media/flower1.3c86fdd5220c6baa4b8d.png",
+    "static/media/flower2.png": "/wed-website/static/media/flower2.94708669df1727faf891.png",
+    "static/media/swan.png": "/wed-website/static/media/swan.8c726d18776f2585b564.png",
+    "static/media/bg-welcome.png": "/wed-website/static/media/bg-welcome.f584b85fd63757607421.png",
+    "static/media/registry-leftimg.png": "/wed-website/static/media/registry-leftimg.55904355f540faceaec0.png",
+    "static/media/registry-gift.png": "/wed-website/static/media/registry-gift.110d63fa854c124fa8ad.png",
+    "static/media/registry-rightimg.png": "/wed-website/static/media/registry-rightimg.4ceb216bc10138eae433.png",
+    "static/media/cheers.gif": "/wed-website/static/media/cheers.41639e974f571ccc9b6c.gif",
+    "static/media/bg-rsvp.png": "/wed-website/static/media/bg-rsvp.9ad3670fd6c3857fc165.png",
+    "index.html": "/wed-website/index.html",
+    "main.4dc8eab4.css.map": "/wed-website/static/css/main.4dc8eab4.css.map",
+    "main.02bd2a96.js.map": "/wed-website/static/js/main.02bd2a96.js.map",
+    "453.cd7a6fde.chunk.js.map": "/wed-website/static/js/453.cd7a6fde.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.749d8101.css",
-    "static/js/main.7020bbdd.js"
+    "static/css/main.4dc8eab4.css",
+    "static/js/main.02bd2a96.js"
   ]
 }
