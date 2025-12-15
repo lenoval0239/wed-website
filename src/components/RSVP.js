@@ -60,13 +60,18 @@ export default function RSVP() {
                 Kindly RSVP by March 30, 2026. We can't wait to share a day full
                 of love, laughter and unforgettable memories with you!
               </p>
-              <a
-                href="https://forms.gle/fr1ctdndmXhJfGfY8"
-                target="_blank"
-                rel="noopener noreferrer"
+              <button
+                id="btnRsvp"
+                onClick={() =>
+                  window.open(
+                    "https://forms.gle/fr1ctdndmXhJfGfY8",
+                    "_blank",
+                    "noopener,noreferrer"
+                  )
+                }
               >
-                <button id="btnRsvp">RSVP HERE</button>
-              </a>
+                RSVP HERE
+              </button>
             </div>
           </div>
         </div>

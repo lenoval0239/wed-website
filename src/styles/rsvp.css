@@ -148,6 +148,19 @@
 .rsvp-content p {
   font-size: clamp(0.9rem, 1vw, 0.9rem);
 }
+#btnRsvp {
+  background-color: #91a77f;
+  border-radius: 50%;
+  border: 6px solid #748169;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  width: 200px;
+  height: 200px;
+  font-size: 2rem;
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+}
+
 /* .rsvp {
   background-image: url(../images/mapbg.png);
   background-repeat: no-repeat;
