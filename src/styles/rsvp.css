@@ -50,49 +50,78 @@
 }
 
 .rsvp {
-  position: relative;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background-color: #586057;
-  align-content: center; /*vertical*/
   aspect-ratio: 16 / 9; /* stays proportional on all screens */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .envelope {
-  position: absolute;
-  --envelope-size-width: 500px;
-  --envelope-size-height: 500px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  --envelope-size-width: 750px;
+  --envelope-size-height: 550px;
   --envelope-size-hyp: 707px;
   /* width: var(--envelope-size-width) + var(--envelope-size-width / 2); */
-  width: var(--envelope-size-width);
-  height: var(--envelope-size-height);
-  left: 50%;
-  top: 70%;
-  transform: translate(-50%, -50%);
+  top: 25%;
+  transform: translate(0, -15%);
 }
 .top-envelope {
   position: absolute;
-  background-color: rgb(247, 245, 245);
+  background-color: rgb(102, 28, 28);
   box-shadow: 10px 0 50px 20px rgba(43, 44, 43, 0.8);
   width: var(--envelope-size-width);
   height: var(--envelope-size-height);
-  transform: rotate(-45deg);
-  top: -50%;
-  left: 0;
+  clip-path: polygon(
+    0% 100%,
+    /* bottom-left */ 50% 50%,
+    /* single mountain peak */ 100% 100% /* bottom-right */
+  );
+  top: -100%;
   z-index: 1;
+}
+.rsvp-info {
+  background-image: url(../images/bg-rsvp-info.png);
+  background-position: center;
+  width: calc(var(--envelope-size-width) - 20px);
+  height: calc(var(--envelope-size-height));
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -35%;
+  box-shadow: 0px 10px 900px 200px rgba(44, 51, 44, 0.8);
+}
+.rsvp-content {
+  width: 60%;
+  position: absolute;
+  top: 0;
+}
+.rsvp-content h1 {
+  font-family: "Alex Brush", cursive;
+  font-size: clamp(1rem, 5vw, 4rem);
+  font-weight: 800;
+  letter-spacing: 10px;
+  margin-bottom: -10px;
+}
+.rsvp-content p {
+  font-size: clamp(0.8rem, 1.5vw, 1rem);
 }
 .mid-container {
   display: flex;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
+  z-index: 3;
 }
 .left-envelope,
 .right-envelope {
   background-color: rgb(247, 245, 245);
   box-shadow: 10px 0 50px 20px rgba(43, 44, 43, 0.8);
-  width: calc(var(--envelope-size-hyp) / 2);
+  width: calc(var(--envelope-size-width) / 2);
   height: var(--envelope-size-height);
   clip-path: polygon(
     0 0,
@@ -105,59 +134,28 @@
   transform: scaleX(-1);
 }
 
-.rsvp-info {
-  background-color: tan;
-  background-image: url(../images/bg-rsvp-info.png);
-  background-position: center;
-  position: absolute;
-  width: calc(var(--envelope-size-hyp) - 50px);
-  height: calc(var(--envelope-size-height) * 1.2);
-  left: 50%;
-  transform: translate(-50%);
-  top: -50%;
-  z-index: 2;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0px 10px 900px 200px rgba(44, 51, 44, 0.8);
-}
-.rsvp-content {
-  width: 80%;
-  position: absolute;
-  top: 0;
-}
-.rsvp-content h1 {
-  font-family: "Alex Brush", cursive;
-  font-size: clamp(1rem, 8vw, 5rem);
-  font-weight: 100;
-  letter-spacing: 10px;
-}
-.rsvp-content p {
-  font-size: clamp(0.9rem, 1vw, 0.9rem);
-}
 .bottom-envelope {
   position: absolute;
-  background-color: rgb(9, 16, 80);
+  background-color: rgb(26, 14, 14);
 
-  width: var(--envelope-size-hyp);
+  width: var(--envelope-size-width);
   height: var(--envelope-size-height);
   clip-path: polygon(
     0% 100%,
     /* bottom-left */ 50% 55%,
     /* single mountain peak */ 100% 100% /* bottom-right */
   );
-  z-index: 1;
+  z-index: 3;
 }
 #btnRsvp {
   background-color: #91a77f;
   border-radius: 50%;
   border: 6px solid #748169;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   font-size: 2rem;
-  z-index: 2;
+  z-index: 4;
 }
 
 /* .rsvp {
