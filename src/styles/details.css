@@ -65,17 +65,20 @@
 .hotel-name-wrapper {
   display: flex;
   align-items: center;
+  justify-content: center;
+  transform: rotate(-90deg);
+  transform-origin: center center; /* helps positioning */
+  width: 30%;
 }
 .hotel-name {
   color: rgb(131, 122, 122);
-  transform: rotate(-90deg);
-  transform-origin: center center; /* helps positioning */
-  font-family: "Alex Brush", cursive;
+  /* font-family: "Alex Brush", cursive; */
   font-size: clamp(1rem, 7vw, 2rem);
   white-space: nowrap; /*makes it so it wont break to the next line for us for phone view purpose*/
   margin: 0;
 }
 .hotel-info {
+  width: 70%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -84,6 +87,10 @@
   margin: 0;
   flex: 1;
 }
+.hotel-info section {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
 
 .hotel-info h4 {
   font-size: clamp(1rem, 1vw, 5rem);
@@ -91,7 +98,9 @@
   margin: 0;
   text-align: left;
 }
-.hotel-info p {
+.hotel-info a {
+  color: #000;
+  text-decoration: none;
   text-align: left;
   font-size: clamp(1rem, 1vw, 1rem);
 }
@@ -117,7 +126,9 @@
   justify-content: space-around;
 }
 .schedule-header {
-  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .schedule-info {
   width: 50%;
@@ -133,6 +144,8 @@
   font-size: clamp(0.5rem, 5vw, 5rem);
   font-weight: 100;
   letter-spacing: 10px;
+  margin: 0;
+  padding: 0;
 }
 .schedule-content h3 {
   font-size: clamp(0.8rem, 3vw, 2rem);
@@ -141,6 +154,6 @@
   color: #586057;
 }
 .schedule-content p {
-  font-size: clamp(0.4rem, 3vw, 0.7rem);
+  font-size: clamp(0.4rem, 2.5vw, 1rem);
   text-align: center;
 }

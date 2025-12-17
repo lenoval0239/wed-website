@@ -53,61 +53,68 @@ function Details() {
           <div className="hotel-name-wrapper">
             <h3 className="hotel-name">The Cobble Creek Lodge</h3>
           </div>
-          <section className="hotel-info">
+          <div className="hotel-info">
             <section>
               <h4>ADDRESS</h4>
-              <p>201 SK-21, Maple Creek, SK S0N 1N0</p>
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=201+SK-21,+Maple+Creek,+SK+S0N+1N0"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                201 SK-21, Maple Creek, SK S0N 1N0
+              </a>
             </section>
             <section>
               <h4>PHONE</h4>
-              <p>(306) 662-5100</p>
+              <a href="tel:+13066625100">(306) 662-5100</a>
+            </section>
+            <section>
+              <h4>EMAIL</h4>
+              <a href="mailto:reservations@cobblecreeklodge.com">
+                reservations@cobblecreeklodge.com
+              </a>
             </section>
             <section>
               <h4>WEBSITE</h4>
-              <p>reservations@cobblecreeklodge.com</p>
-            </section>
-            <section>
               <a
                 href="https://cobblecreeklodge.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="bookOnline">Book Online</button>
+                https://cobblecreeklodge.com/
               </a>
             </section>
-          </section>
+          </div>
         </div>
       </section>
       <section className="schedule-container">
         <div className="schedule-content">
           <div className="schedule-header">
             <h2>The Schedule</h2>
-            <p>Please come to what the invitation entales</p>
-            <p>Everything will be held at the armouries</p>
-            <p> Maple Creek Armories, 502 Marsh St, Maple Creek</p>
+            <p>Our Ceremony, Reception and Dance will be held at the</p>
+            <p> Maple Creek Armories, 502 Marsh St</p>
           </div>
           <div className="schedule-info">
             <section className="ceremony">
               <h3>The Ceremony</h3>
               <p>
-                The ceremony will begin at 2:00 PM. Please join us as we
-                exchange our vows and say our “I dos.”
+                Please join us as we exchange our vows and say our “I dos.” at
+                2PM.
               </p>
             </section>
             <section className="supper">
-              <h3>The Supper</h3>
+              <h3>The Reception</h3>
               <p>
-                Supper will begin at 6:00 PM and will be a family-only
-                gathering. We’re so sorry we couldn’t invite everyone, and we
-                truly appreciate your understanding and love.
+                We are having our family-only supper at 6PM. We’re sorry we
+                couldn’t invite everyone, and we truly appreciate your
+                understanding.
               </p>
             </section>
             <section className="dance">
               <h3>The Dance</h3>
               <p>
-                The dance will begin at 8:00 PM with a cash bar available. Join
-                us later in the evening for midnight snacks to keep the
-                celebration going.
+                The dance will begin at 8:00 PM (cash bar available). Midnight
+                snacks will be provided to keep the celebration going.
               </p>
             </section>
           </div>
