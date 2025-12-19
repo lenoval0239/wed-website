@@ -77,9 +77,6 @@
   }
 }
 @media (max-width: 1000px) {
-  h1 .bride {
-    top: 30%;
-  }
   .landing-page-content h2 {
     left: 50%;
     transform: translate(-50%);

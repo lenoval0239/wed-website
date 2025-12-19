@@ -8,8 +8,8 @@ import video2 from "../images/bg-video2.mp4";
 
 import "../styles/toppage.css";
 // import { CountdownTimer } from "./Timer";
-var bride = "LEILA";
-var groom = "NICHOLAS";
+var bride = "Leila";
+var groom = "Nicholas";
 
 function TopPage() {
   const videoRef = useRef(null);
@@ -27,7 +27,8 @@ function TopPage() {
       <div className="landing-page-content">
         <h1>
           <span className="groom">{groom}</span>
-          <span className="bride">& {bride}</span>
+          <span className="and">&</span>
+          <span className="bride">{bride}</span>
         </h1>
         <h4>05-23-2026</h4>
       </div>
