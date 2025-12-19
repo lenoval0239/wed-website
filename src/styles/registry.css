@@ -5,6 +5,7 @@
   overflow: hidden;
   width: 100%;
   aspect-ratio: 16 / 9;
+  background-color: #586057;
 }
 .left-img {
   position: absolute;
@@ -12,14 +13,7 @@
   top: 50%;
   width: 35%;
 }
-.right-img1,
-.right-img2 {
-  position: absolute;
-  right: -20px;
-  top: 0;
-  width: 35%;
-  z-index: 1;
-}
+
 .right-img2 {
   right: -100px;
   top: 25px;
@@ -33,6 +27,8 @@
   opacity: 0.2;
 }
 #registry section {
+  background-image: url(../images/bg-rsvp-info.png);
+  background-position: center;
   background-color: #f1f0eb;
   position: absolute;
   display: flex;

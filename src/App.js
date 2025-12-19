@@ -17,11 +17,10 @@ import Registry from "./components/Registry";
 function App() {
   return (
     <div className="App">
-      {/* <Navigation /> */}
       <TopPage />
       <Welcome />
+
       <Details />
-      {/* <CountdownTimer /> */}
       <RSVP />
       <Registry />
       <CountdownTimer />

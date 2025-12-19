@@ -6,10 +6,10 @@ import gift from "../images/registry-gift.png";
 function Registry() {
   return (
     <section id="registry">
-      <img className="right-img1" src={rightImage} />
+      {/* <img className="right-img1" src={rightImage} />
       <img className="right-img2" src={rightImage} />
       <img className="left-img" src={leftImage} />
-      <img className="gift-img" src={gift} />
+      <img className="gift-img" src={gift} /> */}
 
       <section>
         <h2>REGISTRY</h2>
