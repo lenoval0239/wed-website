@@ -27,21 +27,16 @@ export default function RSVP() {
         <div className="mid-container">
           <div className="right-envelope"></div>
           <div className="left-envelope"></div>
-        </div>
-        <div className="bottom-envelope">
-          <button
+          <a
+            href="https://forms.gle/fr1ctdndmXhJfGfY8"
+            target="_blank"
+            rel="noopener noreferrer"
             id="btnRsvp"
-            onClick={() =>
-              window.open(
-                "https://forms.gle/fr1ctdndmXhJfGfY8",
-                "_blank",
-                "noopener,noreferrer"
-              )
-            }
           >
             RSVP HERE
-          </button>
+          </a>
         </div>
+        <div className="bottom-envelope"></div>
       </div>
     </div>
   );
