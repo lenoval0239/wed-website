@@ -90,7 +90,9 @@ function Details() {
       <section className="schedule-container">
         <div className="schedule-content">
           <div className="schedule-header">
-            <h2>The Schedule</h2>
+            <h2>
+              The <span>Schedule</span>
+            </h2>
             <p>Our Ceremony, Reception and Dance will be held at the</p>
             <p> Maple Creek Armories, 502 Marsh St</p>
           </div>
