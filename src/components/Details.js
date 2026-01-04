@@ -107,7 +107,7 @@ function Details() {
             <section className="supper">
               <h3>The Reception</h3>
               <p>
-                We are having our family-only supper at 6PM. We’re sorry we
+                We are having our family-only supper at 5:30PM. We’re sorry we
                 couldn’t invite everyone, and we truly appreciate your
                 understanding.
               </p>
