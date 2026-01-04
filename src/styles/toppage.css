@@ -45,13 +45,12 @@ h4 {
 h1 .groom,
 .and,
 h1 .bride {
-  font-family: "Alex Brush", cursive;
   position: absolute;
   /* top: 100px;
   left: 50%;
   right: 50%; */
-  font-size: clamp(2rem, 5vw, 10rem);
-  letter-spacing: 0.4em;
+  font-size: clamp(3.5rem, 10vw, 10rem);
+  /* letter-spacing: 0.4em; */
   font-weight: 100;
   opacity: 1;
   color: rgb(252, 252, 252);
@@ -87,7 +86,6 @@ span {
 
 /* ==================================WELCOME PAGE ====================================*/
 .welcome {
-  height: 100vh;
   position: relative;
   width: 100%;
   aspect-ratio: 16 / 9; /* stays proportional on all screens */
@@ -102,24 +100,37 @@ span {
   background-position: center;
   background-size: cover;
 }
-
+.welcome-info {
+  text-align: center;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);
+}
 .welcome h1 {
-  font-size: clamp(1rem, 10vw, 10rem);
+  font-size: clamp(2rem, 10vw, 8rem);
   font-weight: 100;
-  letter-spacing: 50px;
   color: whitesmoke;
+  text-align: center;
+  margin-top: -150px;
+  padding: 0;
 }
 
 .welcome h3 {
-  font-size: 2rem;
+  font-size: clamp(1rem, 3vw, 5rem);
+
   letter-spacing: 20px;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 .welcome p {
-  width: 50%;
-  justify-self: center;
-  font-size: 1.5rem;
+  font-size: clamp(1.2rem, 3vw, 2rem);
   color: whitesmoke;
+  margin: 0;
+  padding: 0;
 }
 .swan,
 .swan2 {

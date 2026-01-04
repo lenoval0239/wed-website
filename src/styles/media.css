@@ -92,10 +92,7 @@
   .welcome .content {
     width: 100%;
   }
-  .welcome p {
-    width: 95%;
-    font-size: 1rem;
-  }
+
   .swan,
   .swan2 {
     width: 35%;
@@ -162,19 +159,22 @@
   }
 }
 /* =================================================================================== */
-
+@media (max-width: 350px) {
+}
 @media (max-width: 500px) {
   .landing-page {
     height: 70vh;
   }
-  .schedule-content p {
-    padding: 7px;
-    margin: 0;
-  }
 }
 @media (max-width: 750px) {
-  .welcome h1 {
-    letter-spacing: 20px;
+  .welcome {
+    height: 100vh;
+    width: 100%;
+
+    background-image: url(../images/bg-welcome-portrait.png);
+  }
+  .welcome-info {
+    width: 80%;
   }
   #details .title {
     top: -80px !important;
@@ -189,7 +189,10 @@
   .schedule-info {
     width: 65%;
   }
-
+  .schedule-content p {
+    padding: 7px;
+    margin: 0;
+  }
   /* ===================================RSVP============================================== */
 
   #btnRsvp {

@@ -106,7 +106,6 @@
 }
 
 .schedule-container {
-  background-color: yellow;
   width: 40vw;
   aspect-ratio: 2/3;
   display: flex;
@@ -137,6 +136,7 @@
   padding: 0;
   position: absolute;
   top: 0;
+  transform: translate(0, 15%);
 }
 .schedule-info {
   width: 60%;
@@ -171,6 +171,5 @@ span {
 .schedule-content p {
   font-size: clamp(0.8rem, 3vw, 1.2rem);
   text-align: center;
-  padding: 20px;
   margin: 0;
 }

@@ -39,15 +39,16 @@ function TopPage() {
 export function Welcome() {
   return (
     <section className="welcome">
-      <h1>Welcome</h1>
-      <h3>families & friends</h3>
-      <p>
-        We’re so grateful you’re here to celebrate this incredible chapter of
-        our lives with us. Your love, support, and presence mean the world to us
-        as we begin our journey together as husband and wife. We can’t wait to
-        share laughter, memories, and love with each and every one of you..
-      </p>
-
+      <div className="welcome-info">
+        <h1>Welcome</h1>
+        <h3>families & friends</h3>
+        <p>
+          We’re so grateful you’re here to celebrate this incredible chapter of
+          our lives with us. Your love, support, and presence mean the world to
+          us as we begin our journey together as husband and wife. We can’t wait
+          to share laughter, memories, and love with each and every one of you..
+        </p>
+      </div>
       <img className="swan" src={swan} />
       <img className="swan2" src={swan} />
     </section>
