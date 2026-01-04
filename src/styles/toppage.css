@@ -107,10 +107,10 @@ span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);
 }
 .welcome h1 {
-  font-size: clamp(2rem, 10vw, 8rem);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);
+  font-size: clamp(4rem, 10vw, 8rem);
   font-weight: 100;
   color: whitesmoke;
   text-align: center;
@@ -119,8 +119,7 @@ span {
 }
 
 .welcome h3 {
-  font-size: clamp(1rem, 3vw, 5rem);
-
+  font-size: clamp(2rem, 3vw, 5rem);
   letter-spacing: 20px;
   text-align: center;
   margin: 0;
@@ -128,6 +127,8 @@ span {
 }
 .welcome p {
   font-size: clamp(1.2rem, 3vw, 2rem);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);
+
   color: whitesmoke;
   margin: 0;
   padding: 0;
